@@ -1,13 +1,22 @@
 {
 	"name": "gitremote",
+	"version": "0.0.2",
 	"description": "Remote Git API",
-	"repository": "https://github.com/GiMiScale/remotegit",
-	"version": "0.0.1",
+	"bugs": "https://github.com/GiMiScale/gitremote/issues",
+	"homepage": "https://github.com/GiMiScale/gitremote",
+	"author": "GiMiScale <info@gimiscale.com>",
+	"contributors": [
+		"Thomas A. de Ruiter <thomas.deruiter@gimiscale.com>"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/GiMiScale/remotegit.git"
+	},
 	"scripts": {
 		"start": "bin/gitremote"
 	},
 	"engines": {
-		"node": "~0.11.8"
+		"node": ">=0.10.0"
 	},
 	"dependencies": {
 	    "async": "~0.2.8",
@@ -19,5 +28,9 @@
 	},
 	"devDependencies": {
 
+	},
+	"main": "lib",
+	"bin": {
+		"gitremote": "bin/gitremote"
 	}
 }
