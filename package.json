@@ -1,6 +1,6 @@
 {
 	"name": "gitremote",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"description": "Remote Git API",
 	"bugs": "https://github.com/GiMiScale/gitremote/issues",
 	"homepage": "https://github.com/GiMiScale/gitremote",
