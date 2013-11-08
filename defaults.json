@@ -1,0 +1,19 @@
+{
+  "server": {
+    "port": 5917,
+    "name": "gitremote",
+    "defaultVersion": "1.0.0"
+  },
+  "logging": {
+    "name": "ApiLogging",
+    "dir": "./logs/",
+    "file": "remotegit.log",
+    "level": "debug"
+  },
+  "users": {
+
+  },
+  "projects": {
+    
+  }
+}

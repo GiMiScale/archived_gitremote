@@ -1,0 +1,12 @@
+{
+  "users": {
+  	"someuser": {
+  		"password": "somepassword"
+  	}
+  },
+  "projects": {
+    "self": {
+    	"path": "."
+    }
+  }
+}
